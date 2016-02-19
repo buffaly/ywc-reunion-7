@@ -1,0 +1,701 @@
+a {
+  text-decoration: none;
+  color: #000;
+}
+.bg {
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 100px;
+  background-image: url('../images/bg.jpg');
+  background-position: 50% 50%;
+  background-size: contain;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  margin-top: 15vh;
+  border-radius: 2px;
+  box-shadow: 0 0 50px 10px rgba(0, 0, 0, .5);
+}
+
+.bg-paper {
+  background-image: url('../images/paper-bg-01.jpg');
+  background-position: 50% 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-paper.home {
+  padding: 40px 50px;
+}
+
+.bg-paper.gang {
+  padding-top: 30px;
+  padding-bottom: 100px;
+  background-position: 50% 0px;
+  background-size: contain;
+  background-repeat: repeat-y;
+}
+
+.logo-head {
+  display: block;
+  width: 25%;
+  margin-right: auto;
+  margin-left: auto;
+  opacity: 0.87;
+}
+
+.h1-head-sub-logo {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-family: DSNPDP, sans-serif;
+  font-size: 84px;
+  line-height: 90pt;
+  font-weight: 700;
+  text-align: center;
+}
+
+.text {
+  display: inline-block;
+}
+
+.navbar {
+  position: fixed;
+  left: auto;
+  top: 66px;
+  z-index: 5;
+  width: 250px;
+  height: 400px;
+  margin-left: -210px;
+  padding-top: 100px;
+  padding-right: 35px;
+  padding-left: 35px;
+  float: left;
+  background-image: url('../images/bg-slide.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.container {
+  position: relative;
+}
+
+.effect {
+  position: absolute;
+  z-index: -1;
+}
+
+.effect.right {
+  top: 0px;
+  right: 0px;
+}
+
+.effect.right.blood1 {
+  top: -20%;
+  right: -50%;
+  width: 80%;
+}
+
+.effect.right.bullet {
+  top: auto;
+  right: -280px;
+  bottom: 500px;
+  width: 250px;
+}
+
+.effect.right.bullet._2 {
+  bottom: 100px;
+}
+
+.effect.right.cap {
+  top: -100px;
+  right: -250px;
+  width: 200px;
+}
+
+.effect.left {
+  left: 0px;
+  bottom: 0px;
+}
+
+.effect.left.coffee {
+  left: -450px;
+  bottom: -20px;
+  width: 400px;
+}
+
+.effect.blood2 {
+  left: -320px;
+  top: 400px;
+  width: 600px;
+}
+
+.effect.blood3 {
+  top: -200px;
+  right: -300px;
+  width: 600px;
+}
+
+.nav-menu {
+  text-align: center;
+}
+
+.nav-menu-item {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 7px 5px;
+  float: none;
+  clear: both;
+  opacity: 0.7;
+  font-family: 'Wp domino novel', sans-serif;
+  font-size: 28px;
+  line-height: 130%;
+  text-align: center;
+}
+
+.nav-menu-item:hover {
+  opacity: 1;
+}
+
+.nav-menu-item.active {
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../images/active-menu.png');
+  background-position: 50% 78%;
+  background-size: auto 5px;
+  background-repeat: repeat-x;
+  opacity: 1;
+}
+
+.logo-mobile {
+  display: none;
+}
+
+.image-center {
+  display: block;
+  width: 50%;
+  margin: 25px auto 15px;
+}
+
+.image-center.date {
+  width: 35%;
+  margin-top: 50px;
+}
+
+.image-center.date.place {
+  position: relative;
+  z-index: 999;
+  width: 27%;
+  margin-bottom: 0px;
+}
+
+.image-center.place-name {
+  position: relative;
+  z-index: 999;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  opacity: 0.85;
+}
+
+.image-center.banner {
+  width: 70%;
+}
+
+.image-center.shirt {
+  position: relative;
+  z-index: 2;
+  width: 30%;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.text-content {
+  display: block;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Wp domino novel', sans-serif;
+  font-size: 26px;
+  line-height: 140%;
+  text-align: center;
+}
+
+.time-item-title {
+  width: 50%;
+  padding-right: 30px;
+  float: left;
+  border-right: 4px solid #98783b;
+  font-family: 'Western bang bang', sans-serif;
+  font-size: 85px;
+  line-height: 130%;
+  text-align: right;
+}
+
+.time-detail {
+  width: 50%;
+  padding: 30px 30px 0px;
+  float: left;
+  font-family: 'Wp domino novel', sans-serif;
+  font-size: 24px;
+  line-height: 140%;
+}
+
+.google-map {
+  margin-top: -25px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: hsla(0, 0%, 100%, .74);
+  box-shadow: 6px 6px 30px 0 rgba(0, 0, 0, .4);
+}
+
+.map {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.shirt-img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.header {
+  width: 100%;
+  min-height: 220px;
+  margin-top: 50px;
+  padding-top: 60px;
+  padding-left: 40px;
+  background-image: url('../images/white_head.png');
+  background-position: 100% 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+
+.header.red {
+  background-image: url('../images/red_head.png');
+}
+
+.header.green {
+  background-image: url('../images/green_head.png');
+}
+
+.header.blue {
+  background-image: url('../images/blue_head.png');
+}
+
+.gang-head {
+  float: left;
+}
+
+.profile-item {
+  position: relative;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  margin: 10px 11px 40px;
+  border: 5px solid rgba(0, 0, 0, .5);
+  border-radius: 50%;
+  background-color: #3a3a3a;
+}
+
+.child-head {
+  display: inline-block;
+  width: 100%;
+  margin-top: -15px;
+  padding: 20px 40px;
+  background-color: #fff;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.child-head.red {
+  background-color: #f13a41;
+}
+
+.child-head.green {
+  background-color: #5a9902;
+}
+
+.child-head.blue {
+  background-color: #00aae9;
+}
+
+.child-head.arrow {
+  margin-top: 0px;
+  opacity: 0.8;
+}
+
+.arrow {
+  opacity: 0.75;
+}
+
+.text-name-gang {
+  position: absolute;
+  left: 0px;
+  bottom: -25px;
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+}
+
+.login-bb {
+  position: relative;
+  z-index: 2;
+  display: block;
+  width: 300px;
+  height: 200px;
+  margin: -50px auto -130px;
+  background-image: url('../images/login.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.login-bb:hover {
+  opacity: 1;
+}
+
+.title-size {
+  margin-top: 50px;
+  font-family: 'Western bang bang', sans-serif;
+  font-size: 100px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 16px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 3px 20px 0 rgba(0, 0, 0, .5);
+  opacity: 0.8;
+}
+
+.img.shirt.mobile {
+  display: none;
+}
+
+.nav-bb-mobile {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .content {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  .logo-head {
+    width: 40%;
+  }
+  .text {
+    line-height: 90pt;
+  }
+  .navbar {
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    margin-left: 0px;
+    padding-top: 3px;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-image: -webkit-radial-gradient(circle farthest-corner at 93% 94%, rgba(126, 53, 18, .36), rgba(84, 44, 17, .63)), url('../images/paper-bg-01.jpg');
+    background-image: radial-gradient(circle farthest-corner at 93% 94%, rgba(126, 53, 18, .36), rgba(84, 44, 17, .63)), url('../images/paper-bg-01.jpg');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+    box-shadow: 0 1px 45px 0 #000;
+  }
+  .logo-mobile {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: block;
+    width: 33px;
+    margin-top: 7px;
+    margin-left: 15px;
+    float: left;
+  }
+  .image-center {
+    width: 80%;
+  }
+  .image-center.date {
+    width: 55%;
+  }
+  .image-center.banner {
+    width: 80%;
+  }
+  .image-center.shirt {
+    width: 40%;
+  }
+  .text-content {
+    width: 100%;
+  }
+  .time-item-title {
+    width: 35%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-right-width: 3px;
+    font-size: 80px;
+  }
+  .time-detail {
+    width: 65%;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 22px;
+  }
+  .time-detail.last {
+    padding-top: 50px;
+  }
+  .header {
+    position: relative;
+    z-index: 2;
+    height: 150px;
+    padding-top: 230px;
+    padding-left: 0px;
+    text-align: center;
+  }
+  .gang-head {
+    display: inline-block;
+    width: 100%;
+    margin-left: 0px;
+    float: left;
+  }
+  .child-head {
+    position: relative;
+    z-index: 0;
+    margin-top: -175px;
+    padding-top: 175px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .child-head.arrow {
+    margin-top: 0px;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .content {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .bg-paper.home {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .logo-head {
+    width: 50%;
+  }
+  .navbar {
+    height: auto;
+    text-align: center;
+  }
+  .nav-menu {
+    position: relative;
+    display: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .nav-menu-item {
+    display: block;
+    width: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .nav-menu-item.active {
+    background-size: 20%;
+    background-repeat: no-repeat;
+  }
+  .nav-menu-item.big {
+    margin-right: 35%;
+    margin-left: 35%;
+  }
+  .logo-mobile {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    float: none;
+  }
+  .image-center {
+    width: 90%;
+  }
+  .image-center.date {
+    width: 65%;
+    margin-top: 30px;
+  }
+  .image-center.banner {
+    width: 95%;
+  }
+  .image-center.shirt {
+    width: 50%;
+  }
+  .time-item-title {
+    width: 32%;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-right-style: solid;
+    font-size: 50px;
+  }
+  .time-detail {
+    width: 68%;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-left: 20px;
+    font-size: 18px;
+  }
+  .time-detail.last {
+    padding-top: 40px;
+  }
+  .header {
+    z-index: 2;
+    height: 165px;
+    padding-top: 220px;
+    padding-left: 0px;
+  }
+  .gang-head {
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .child-head {
+    margin-top: -350px;
+    padding-top: 350px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .title-size {
+    font-size: 80px;
+    line-height: 70px;
+  }
+  .img.shirt {
+    display: none;
+  }
+  .img.shirt.mobile {
+    display: block;
+  }
+  .nav-bb-mobile {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 13px 10px 10px;
+    float: right;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  .bb-line {
+    display: block;
+    width: 100%;
+    height: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    background-color: #000;
+  }
+}
+
+@media (max-width: 479px) {
+  .content {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .bg-paper.home {
+    padding: 20px 10px;
+  }
+  .logo-head {
+    width: 70%;
+  }
+  .nav-menu-item.active {
+    background-size: auto 5px;
+  }
+  .image-center {
+    width: 100%;
+  }
+  .image-center.date {
+    width: 100%;
+    max-width: 300px;
+  }
+  .image-center.banner {
+    width: 90%;
+  }
+  .image-center.shirt {
+    width: 70%;
+    max-width: 200px;
+  }
+  .time-item-title {
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-right-style: none;
+    font-size: 30px;
+    text-align: center;
+  }
+  .time-detail {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-left: 3px solid #98783b;
+  }
+  .time-detail.last {
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+  .header {
+    background-position: 100% 50%;
+    background-size: cover;
+  }
+  .child-head {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+@font-face {
+  font-family: 'DSNPDP';
+  src: url('../fonts/DSNPDP__.TTF') format('undefined');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Dsnpdp ';
+  src: url('../fonts/DSNPDP__.TTF') format('undefined');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Wp domino novel';
+  src: url('../fonts/WP DOMINO novel italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Wp domino novel';
+  src: url('../fonts/WP DOMINO novel.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Wp domino novel';
+  src: url('../fonts/WP DOMINO novel Bold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Western bang bang';
+  src: url('../fonts/Western Bang Bang.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
